@@ -43,32 +43,32 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_02X08 J3
+L CONN_02X08 J1
 U 1 1 599C453D
-P 2900 3150
-F 0 "J3" H 2900 3600 50  0000 C CNN
-F 1 "CONN_02X08" V 2900 3150 50  0000 C CNN
-F 2 "" H 2900 1950 50  0001 C CNN
-F 3 "" H 2900 1950 50  0001 C CNN
-	1    2900 3150
+P 1900 3950
+F 0 "J1" H 1900 4400 50  0000 C CNN
+F 1 "CONN_02X08" V 1900 3950 50  0000 C CNN
+F 2 "" H 1900 2750 50  0001 C CNN
+F 3 "" H 1900 2750 50  0001 C CNN
+	1    1900 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X14 J6
 U 1 1 599C456D
-P 7700 3250
-F 0 "J6" H 7700 4000 50  0000 C CNN
-F 1 "CONN_01X14" V 7800 3250 50  0000 C CNN
-F 2 "" H 7700 3250 50  0001 C CNN
-F 3 "" H 7700 3250 50  0001 C CNN
-	1    7700 3250
+P 8000 3850
+F 0 "J6" H 8000 4600 50  0000 C CNN
+F 1 "CONN_01X14" V 8100 3850 50  0000 C CNN
+F 2 "" H 8000 3850 50  0001 C CNN
+F 3 "" H 8000 3850 50  0001 C CNN
+	1    8000 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L JACK_2P J1
+L JACK_2P J2
 U 1 1 599C45B8
 P 2150 1200
-F 0 "J1" H 1800 1000 50  0000 C CNN
+F 0 "J2" H 1800 1000 50  0000 C CNN
 F 1 "JACK_2P" H 2000 1450 50  0000 C CNN
 F 2 "" H 2150 1200 50  0001 C CNN
 F 3 "" H 2150 1200 50  0001 C CNN
@@ -76,10 +76,10 @@ F 3 "" H 2150 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JACK_2P J2
+L JACK_2P J3
 U 1 1 599C461E
 P 2150 1750
-F 0 "J2" H 1800 1550 50  0000 C CNN
+F 0 "J3" H 1800 1550 50  0000 C CNN
 F 1 "JACK_2P" H 2000 2000 50  0000 C CNN
 F 2 "" H 2150 1750 50  0001 C CNN
 F 3 "" H 2150 1750 50  0001 C CNN
@@ -108,63 +108,48 @@ F 3 "" H 3750 1700 50  0001 C CNN
 	1    3750 1700
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2950 1050 2950 2100
-Wire Wire Line
-	3300 1850 2950 1850
-Connection ~ 2950 1850
-Connection ~ 2950 1600
-Wire Wire Line
-	3300 1300 2950 1300
-Connection ~ 2950 1300
-Wire Wire Line
-	2950 1050 2600 1050
-Wire Wire Line
-	2950 1600 2600 1600
 $Comp
-L GND #PWR01
+L GND #PWR1
 U 1 1 599C47FD
-P 2950 2100
-F 0 "#PWR01" H 2950 1850 50  0001 C CNN
-F 1 "GND" H 2950 1950 50  0000 C CNN
-F 2 "" H 2950 2100 50  0001 C CNN
-F 3 "" H 2950 2100 50  0001 C CNN
-	1    2950 2100
+P 2950 2300
+F 0 "#PWR1" H 2950 2050 50  0001 C CNN
+F 1 "GND" H 2950 2150 50  0000 C CNN
+F 2 "" H 2950 2300 50  0001 C CNN
+F 3 "" H 2950 2300 50  0001 C CNN
+	1    2950 2300
 	1    0    0    -1  
 $EndComp
-Text Label 7500 2600 2    60   ~ 0
+Text Label 7800 3200 2    60   ~ 0
 J1
-Text Label 7500 2700 2    60   ~ 0
+Text Label 7800 3300 2    60   ~ 0
 J1SW
 Text Label 2600 1300 0    60   ~ 0
 J1
 Text Label 2600 1200 0    60   ~ 0
 J1SW
-Text Label 7500 2800 2    60   ~ 0
+Text Label 7800 3400 2    60   ~ 0
 J2
-Text Label 7500 2900 2    60   ~ 0
+Text Label 7800 3500 2    60   ~ 0
 J2SW
-Text Notes 7800 2700 0    60   ~ 0
-SW=switch
-Text Label 7500 3000 2    60   ~ 0
+Text Label 7800 3600 2    60   ~ 0
 J3
-Text Label 7500 3100 2    60   ~ 0
+Text Label 7800 3700 2    60   ~ 0
 J3SW
-Text Label 7500 3200 2    60   ~ 0
+Text Label 7800 3800 2    60   ~ 0
 J4
-Text Label 7500 3300 2    60   ~ 0
+Text Label 7800 3900 2    60   ~ 0
 J4SW
-Text Label 7500 3400 2    60   ~ 0
+Text Label 7800 4000 2    60   ~ 0
 GATE
-Text Label 7500 3500 2    60   ~ 0
+Text Label 7800 4100 2    60   ~ 0
 CV
-Text Label 7500 3600 2    60   ~ 0
+Text Label 7800 4200 2    60   ~ 0
 +12V
-Text Label 7500 3700 2    60   ~ 0
+Text Label 7800 4300 2    60   ~ 0
 -12V
-Text Label 7500 3800 2    60   ~ 0
+Text Label 7800 4400 2    60   ~ 0
 +5V
-Text Label 7500 3900 2    60   ~ 0
+Text Label 7800 4500 2    60   ~ 0
 GND
 Text Label 2600 1850 0    60   ~ 0
 J2
@@ -178,21 +163,275 @@ Text Label 3300 1600 2    60   ~ 0
 J4
 Text Label 3300 1700 2    60   ~ 0
 J4SW
-Text Label 3150 2800 0    60   ~ 0
+Text Label 2150 3600 0    60   ~ 0
 GATE
-Text Label 3150 2900 0    60   ~ 0
+Text Label 2150 3700 0    60   ~ 0
 CV
-NoConn ~ 3150 3000
-Text Notes 3150 3000 0    60   ~ 0
-5V (not connected)
-Text Notes 3150 3100 0    60   ~ 0
+NoConn ~ 2150 3800
+Text Notes 2150 3800 0    60   ~ 0
+5V not connected
+Text Notes 2150 3900 0    60   ~ 0
 +12V
-Text Notes 3150 3200 0    60   ~ 0
+Text Notes 2150 4000 0    60   ~ 0
 GND
-Text Notes 3150 3300 0    60   ~ 0
+Text Notes 2150 4100 0    60   ~ 0
 GND
-Text Notes 3150 3400 0    60   ~ 0
+Text Notes 2150 4200 0    60   ~ 0
 GND
-Text Notes 3150 3500 0    60   ~ 0
+Text Notes 2150 4300 0    60   ~ 0
 -12V
+$Comp
+L D D1
+U 1 1 599C4F6A
+P 3850 3500
+F 0 "D1" H 3850 3600 50  0000 C CNN
+F 1 "1N4001" H 3850 3400 50  0000 C CNN
+F 2 "" H 3850 3500 50  0001 C CNN
+F 3 "" H 3850 3500 50  0001 C CNN
+	1    3850 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D2
+U 1 1 599C4FD1
+P 3850 4500
+F 0 "D2" H 3850 4600 50  0000 C CNN
+F 1 "1N4001" H 3850 4400 50  0000 C CNN
+F 2 "" H 3850 4500 50  0001 C CNN
+F 3 "" H 3850 4500 50  0001 C CNN
+	1    3850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 599C5019
+P 4500 3500
+F 0 "R1" V 4580 3500 50  0000 C CNN
+F 1 "10R" V 4500 3500 50  0000 C CNN
+F 2 "" V 4430 3500 50  0001 C CNN
+F 3 "" H 4500 3500 50  0001 C CNN
+	1    4500 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 599C5072
+P 4500 4500
+F 0 "R2" V 4580 4500 50  0000 C CNN
+F 1 "10R" V 4500 4500 50  0000 C CNN
+F 2 "" V 4430 4500 50  0001 C CNN
+F 3 "" H 4500 4500 50  0001 C CNN
+	1    4500 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C1
+U 1 1 599C50AD
+P 5100 3750
+F 0 "C1" H 5125 3850 50  0000 L CNN
+F 1 "10uF" H 5125 3650 50  0000 L CNN
+F 2 "" H 5100 3750 50  0001 C CNN
+F 3 "" H 5100 3750 50  0001 C CNN
+	1    5100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 599C5103
+P 5100 4250
+F 0 "C2" H 5125 4350 50  0000 L CNN
+F 1 "10uF" H 5125 4150 50  0000 L CNN
+F 2 "" H 5100 4250 50  0001 C CNN
+F 3 "" H 5100 4250 50  0001 C CNN
+	1    5100 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 599C5139
+P 5900 4000
+F 0 "#PWR2" H 5900 3750 50  0001 C CNN
+F 1 "GND" H 5900 3850 50  0000 C CNN
+F 2 "" H 5900 4000 50  0001 C CNN
+F 3 "" H 5900 4000 50  0001 C CNN
+	1    5900 4000
+	0    -1   -1   0   
+$EndComp
+Text Label 5950 4500 0    60   ~ 0
+-12V
+$Comp
+L PWR_FLAG #FLG1
+U 1 1 599C57EA
+P 3050 2100
+F 0 "#FLG1" H 3050 2175 50  0001 C CNN
+F 1 "PWR_FLAG" H 3150 2250 50  0000 C CNN
+F 2 "" H 3050 2100 50  0001 C CNN
+F 3 "" H 3050 2100 50  0001 C CNN
+	1    3050 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L PWR_FLAG #FLG2
+U 1 1 599C5844
+P 3400 3500
+F 0 "#FLG2" H 3400 3575 50  0001 C CNN
+F 1 "PWR_FLAG" V 3500 3650 50  0000 C CNN
+F 2 "" H 3400 3500 50  0001 C CNN
+F 3 "" H 3400 3500 50  0001 C CNN
+	1    3400 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PWR_FLAG #FLG3
+U 1 1 599C5897
+P 3400 4500
+F 0 "#FLG3" H 3400 4575 50  0001 C CNN
+F 1 "PWR_FLAG" V 3250 4650 50  0000 C CNN
+F 2 "" H 3400 4500 50  0001 C CNN
+F 3 "" H 3400 4500 50  0001 C CNN
+	1    3400 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 1050 2950 2300
+Wire Wire Line
+	3300 1850 2950 1850
+Connection ~ 2950 1850
+Connection ~ 2950 1600
+Wire Wire Line
+	3300 1300 2950 1300
+Connection ~ 2950 1300
+Wire Wire Line
+	2950 1050 2600 1050
+Wire Wire Line
+	2950 1600 2600 1600
+Wire Wire Line
+	5900 4000 2150 4000
+Wire Wire Line
+	4000 4500 4350 4500
+Wire Wire Line
+	4650 4500 5950 4500
+Wire Wire Line
+	4650 3500 5950 3500
+Wire Wire Line
+	4350 3500 4000 3500
+Wire Wire Line
+	2150 3900 3450 3900
+Wire Wire Line
+	3400 3500 3700 3500
+Wire Wire Line
+	3400 4500 3700 4500
+Connection ~ 3450 3500
+Connection ~ 3450 4500
+Wire Wire Line
+	2150 4100 2450 4100
+Wire Wire Line
+	2450 4000 2450 4200
+Connection ~ 2450 4000
+Wire Wire Line
+	2450 4200 2150 4200
+Connection ~ 2450 4100
+$Comp
+L LM7805 U1
+U 1 1 599C5C36
+P 7050 1800
+F 0 "U1" H 7200 1604 50  0000 C CNN
+F 1 "LM7805" H 7050 2000 50  0000 C CNN
+F 2 "" H 7050 1800 50  0001 C CNN
+F 3 "" H 7050 1800 50  0001 C CNN
+	1    7050 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 599C5CBD
+P 7050 2450
+F 0 "#PWR3" H 7050 2200 50  0001 C CNN
+F 1 "GND" H 7050 2300 50  0000 C CNN
+F 2 "" H 7050 2450 50  0001 C CNN
+F 3 "" H 7050 2450 50  0001 C CNN
+	1    7050 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2050 7050 2450
+Wire Wire Line
+	7450 1750 8400 1750
+Wire Wire Line
+	7950 1750 7950 2300
+Connection ~ 7950 1750
+Text Label 8400 1750 0    60   ~ 0
++5V
+Text Label 5950 3500 0    60   ~ 0
++12V
+Wire Wire Line
+	6100 2300 6100 1350
+Wire Wire Line
+	6650 1750 6100 1750
+Connection ~ 6100 1750
+Text Label 6100 1350 0    60   ~ 0
++12V
+NoConn ~ 1650 3600
+NoConn ~ 1650 3700
+NoConn ~ 1650 3800
+NoConn ~ 1650 3900
+NoConn ~ 1650 4000
+NoConn ~ 1650 4100
+NoConn ~ 1650 4200
+NoConn ~ 1650 4300
+Wire Wire Line
+	3050 2100 2950 2100
+Connection ~ 2950 2100
+Text Notes 8150 2150 0    60   ~ 0
+Voltage regulator +5V
+Wire Wire Line
+	3450 3900 3450 3500
+Wire Wire Line
+	2150 4300 3450 4300
+Wire Wire Line
+	3450 4300 3450 4500
+Wire Wire Line
+	5100 3600 5100 3500
+Connection ~ 5100 3500
+Wire Wire Line
+	5100 4400 5100 4500
+Connection ~ 5100 4500
+Wire Wire Line
+	5100 3900 5100 4100
+Connection ~ 5100 4000
+$Comp
+L C C3
+U 1 1 599C7187
+P 6600 2300
+F 0 "C3" H 6625 2400 50  0000 L CNN
+F 1 "330nF" H 6625 2200 50  0000 L CNN
+F 2 "" H 6638 2150 50  0001 C CNN
+F 3 "" H 6600 2300 50  0001 C CNN
+	1    6600 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L C C4
+U 1 1 599C71D4
+P 7500 2300
+F 0 "C4" H 7525 2400 50  0000 L CNN
+F 1 "100nF" H 7525 2200 50  0000 L CNN
+F 2 "" H 7538 2150 50  0001 C CNN
+F 3 "" H 7500 2300 50  0001 C CNN
+	1    7500 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 2300 7650 2300
+Wire Wire Line
+	6750 2300 7350 2300
+Connection ~ 7050 2300
+Wire Wire Line
+	6450 2300 6100 2300
+Text Notes 8300 3500 0    60   ~ 0
+Breadboard connector
+Text Notes 3500 2350 0    60   ~ 0
+Jacks interface
+Text Notes 4850 4950 0    60   ~ 0
+Power input section
 $EndSCHEMATC
