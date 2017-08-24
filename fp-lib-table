@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Eurocad)(type KiCad)(uri "/Volumes/Dropbox/Dropbox/KiCad/Eurorack Lib/Eurocad.pretty")(options "")(descr ""))
+  (lib (name lib)(type KiCad)(uri "$(KIPRJMOD)/lib.pretty")(options "")(descr ""))
 )

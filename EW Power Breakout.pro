@@ -1,4 +1,4 @@
-update=2017 August 22, Tuesday 19:00:34
+update=2017 August 24, Thursday 20:24:39
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/Volumes/Dropbox/Dropbox/KiCad/Eurorack Lib/Eurocad.pretty
+LibDir=/Volumes/Dropbox/Dropbox/KiCad/Eurorack Lib/Eurocad.pretty;/Volumes/Dropbox/Dropbox/KiCad/004.Eurorack Workshop Power Breakout/Logo
 [eeschema/libraries]
 LibName1=power
 LibName2=device
