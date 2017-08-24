@@ -52,7 +52,7 @@ F 1 "CONN_02X08" V 1900 3950 50  0000 C CNN
 F 2 "Connectors:IDC_Header_Straight_16pins" H 1900 2750 50  0001 C CNN
 F 3 "" H 1900 2750 50  0001 C CNN
 	1    1900 3950
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_01X14 J6
@@ -150,8 +150,6 @@ Text Label 8100 4600 2    60   ~ 0
 -12V
 Text Label 8100 4700 2    60   ~ 0
 +5V
-Text Label 8100 4800 2    60   ~ 0
-GND
 Text Label 2600 1850 0    60   ~ 0
 J2
 Text Label 2600 1750 0    60   ~ 0
@@ -169,18 +167,8 @@ GATE
 Text Label 2150 3700 0    60   ~ 0
 CV
 NoConn ~ 2150 3800
-Text Notes 2150 3800 0    60   ~ 0
+Text Notes 2200 3800 0    60   ~ 0
 5V not connected
-Text Notes 2150 3900 0    60   ~ 0
-+12V
-Text Notes 2150 4000 0    60   ~ 0
-GND
-Text Notes 2150 4100 0    60   ~ 0
-GND
-Text Notes 2150 4200 0    60   ~ 0
-GND
-Text Notes 2150 4300 0    60   ~ 0
--12V
 $Comp
 L D D1
 U 1 1 599C4F6A
@@ -372,14 +360,6 @@ Wire Wire Line
 Connection ~ 6100 1750
 Text Label 6100 1350 0    60   ~ 0
 +12V
-NoConn ~ 1650 3600
-NoConn ~ 1650 3700
-NoConn ~ 1650 3800
-NoConn ~ 1650 3900
-NoConn ~ 1650 4000
-NoConn ~ 1650 4100
-NoConn ~ 1650 4200
-NoConn ~ 1650 4300
 Wire Wire Line
 	3050 2100 2950 2100
 Connection ~ 2950 2100
@@ -435,4 +415,42 @@ Text Notes 3500 2350 0    60   ~ 0
 Jacks interface
 Text Notes 4850 4950 0    60   ~ 0
 Power input section
+Text Label 1650 3600 2    60   ~ 0
+GATE
+Text Label 1650 3700 2    60   ~ 0
+CV
+NoConn ~ 1650 3800
+Text Label 2150 4000 0    60   ~ 0
+GND
+Text Label 2150 4100 0    60   ~ 0
+GND
+Text Label 2150 4200 0    60   ~ 0
+GND
+Text Label 1650 4000 2    60   ~ 0
+GND
+Text Label 1650 4100 2    60   ~ 0
+GND
+Text Label 1650 4200 2    60   ~ 0
+GND
+Text Label 2150 3900 0    60   ~ 0
++12VI
+Text Label 1650 3900 2    60   ~ 0
++12VI
+Text Label 2150 4300 0    60   ~ 0
+-12VI
+Text Label 1650 4300 2    60   ~ 0
+-12VI
+$Comp
+L GND #PWR?
+U 1 1 599F1279
+P 7800 4800
+F 0 "#PWR?" H 7800 4550 50  0001 C CNN
+F 1 "GND" H 7800 4650 50  0000 C CNN
+F 2 "" H 7800 4800 50  0001 C CNN
+F 3 "" H 7800 4800 50  0001 C CNN
+	1    7800 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 4800 8100 4800
 $EndSCHEMATC
