@@ -282,7 +282,15 @@ F 3 "" H 3400 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2950 1050 2950 2300
+	2950 1050 2950 1300
+Wire Wire Line
+	2950 1300 2950 1600
+Wire Wire Line
+	2950 1600 2950 1850
+Wire Wire Line
+	2950 1850 2950 2100
+Wire Wire Line
+	2950 2100 2950 2300
 Wire Wire Line
 	3300 1850 2950 1850
 Connection ~ 2950 1850
@@ -295,27 +303,41 @@ Wire Wire Line
 Wire Wire Line
 	2950 1600 2600 1600
 Wire Wire Line
-	5900 4000 2150 4000
+	2150 4000 2450 4000
+Wire Wire Line
+	2450 4000 5100 4000
+Wire Wire Line
+	5100 4000 5900 4000
 Wire Wire Line
 	4000 4500 4350 4500
 Wire Wire Line
-	4650 4500 5950 4500
+	4650 4500 5100 4500
 Wire Wire Line
-	4650 3500 5950 3500
+	5100 4500 5950 4500
+Wire Wire Line
+	4650 3500 5100 3500
+Wire Wire Line
+	5100 3500 5950 3500
 Wire Wire Line
 	4350 3500 4000 3500
 Wire Wire Line
 	2150 3900 3450 3900
 Wire Wire Line
-	3400 3500 3700 3500
+	3400 3500 3450 3500
 Wire Wire Line
-	3400 4500 3700 4500
+	3450 3500 3700 3500
+Wire Wire Line
+	3400 4500 3450 4500
+Wire Wire Line
+	3450 4500 3700 4500
 Connection ~ 3450 3500
 Connection ~ 3450 4500
 Wire Wire Line
 	2150 4100 2450 4100
 Wire Wire Line
-	2450 4000 2450 4200
+	2450 4000 2450 4100
+Wire Wire Line
+	2450 4100 2450 4200
 Connection ~ 2450 4000
 Wire Wire Line
 	2450 4200 2150 4200
@@ -343,9 +365,13 @@ F 3 "" H 7050 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 2050 7050 2450
+	7050 2050 7050 2300
 Wire Wire Line
-	7450 1750 8400 1750
+	7050 2300 7050 2450
+Wire Wire Line
+	7450 1750 7950 1750
+Wire Wire Line
+	7950 1750 8400 1750
 Wire Wire Line
 	7950 1750 7950 2300
 Connection ~ 7950 1750
@@ -354,7 +380,9 @@ Text Label 8400 1750 0    60   ~ 0
 Text Label 5950 3500 0    60   ~ 0
 +12V
 Wire Wire Line
-	6100 2300 6100 1350
+	6100 1350 6100 1750
+Wire Wire Line
+	6100 1750 6100 2300
 Wire Wire Line
 	6650 1750 6100 1750
 Connection ~ 6100 1750
@@ -378,7 +406,9 @@ Wire Wire Line
 	5100 4400 5100 4500
 Connection ~ 5100 4500
 Wire Wire Line
-	5100 3900 5100 4100
+	5100 3900 5100 4000
+Wire Wire Line
+	5100 4000 5100 4100
 Connection ~ 5100 4000
 $Comp
 L C C3
@@ -405,10 +435,12 @@ $EndComp
 Wire Wire Line
 	7950 2300 7650 2300
 Wire Wire Line
-	6750 2300 7350 2300
+	6750 2300 7050 2300
+Wire Wire Line
+	7050 2300 7350 2300
 Connection ~ 7050 2300
 Wire Wire Line
-	6450 2300 6100 2300
+	6100 2300 6450 2300
 Text Notes 8600 3800 0    60   ~ 0
 Breadboard connector
 Text Notes 3500 2350 0    60   ~ 0
