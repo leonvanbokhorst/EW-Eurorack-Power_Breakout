@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:EW Power Breakout-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -66,7 +67,7 @@ F 3 "" H 8300 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JACK_2P J2
+L JACK_2P-RESCUE-EW_Power_Breakout J2
 U 1 1 599C45B8
 P 2150 1200
 F 0 "J2" H 1800 1000 50  0000 C CNN
@@ -77,7 +78,7 @@ F 3 "" H 2150 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JACK_2P J3
+L JACK_2P-RESCUE-EW_Power_Breakout J3
 U 1 1 599C461E
 P 2150 1750
 F 0 "J3" H 1800 1550 50  0000 C CNN
@@ -88,7 +89,7 @@ F 3 "" H 2150 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JACK_2P J4
+L JACK_2P-RESCUE-EW_Power_Breakout J4
 U 1 1 599C4645
 P 3750 1150
 F 0 "J4" H 3400 950 50  0000 C CNN
@@ -99,7 +100,7 @@ F 3 "" H 3750 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L JACK_2P J5
+L JACK_2P-RESCUE-EW_Power_Breakout J5
 U 1 1 599C4690
 P 3750 1700
 F 0 "J5" H 3400 1500 50  0000 C CNN
